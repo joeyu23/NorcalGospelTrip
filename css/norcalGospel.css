@@ -1,8 +1,20 @@
 #map {
-  height: 400px;
+  height: 600px;
   width: 100%;
+ }
+
+ .bfa-background-color {
+   background: #549aca !important;
  }
 
 .basic-elements-title {
   width: 100%;
+}
+
+.mystery-section {
+  width: 100%;
+}
+
+.mystery-section .mystery-chapter {
+  padding-bottom: 15px;
 }

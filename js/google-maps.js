@@ -14,55 +14,68 @@ function initMap() {
   var walmart = {lat: 37.382248, lng: -122.035720};
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 10,
-    center: facebook
+    zoom: 11,
+    center: amd
   });
+
   var fbMarker = new google.maps.Marker({
     position: facebook,
+    icon: 'images/logo/facebook.png',
     map: map
   });
   var googMarker = new google.maps.Marker({
   	position: goog,
+    icon: 'images/logo/google.png',
     map: map
   });
   var amazonMarker = new google.maps.Marker({
   	position: amazon,
+    icon: 'images/logo/amazon.png',
     map: map
   });
   var appleMarker = new google.maps.Marker({
   	position: apple,
+    icon: 'images/logo/apple.png',
     map: map
   });
   var broadcomMarker = new google.maps.Marker({
   	position: broadcom,
+    icon: 'images/logo/broadcom.png',
     map: map
   });
   var ciscoMarker = new google.maps.Marker({
   	position: cisco,
+    icon: 'images/logo/cisco.png',
     map: map
   });
   var huaweiMarker = new google.maps.Marker({
   	position: huawei,
+    icon: 'images/logo/huawei.png',
     map: map
   });
   var nvidiaMarker = new google.maps.Marker({
   	position: nvidia,
+    icon: 'images/logo/nvidia.png',
     map: map
   });
   var sandiskMarker = new google.maps.Marker({
   	position: sandisk,
+    icon: 'images/logo/sandisk.png',
     map: map
   });
   var vmwareMarker = new google.maps.Marker({
   	position: vmware,
+    icon: 'images/logo/vmware.png',
     map: map
   });
   var amdMarker = new google.maps.Marker({
   	position: amd,
+    icon: 'images/logo/amd.png',
     map: map
   });
   var walmartMarker = new google.maps.Marker({
   	position: walmart,
+    icon: 'images/logo/walmart.png',
     map: map
   });
 
