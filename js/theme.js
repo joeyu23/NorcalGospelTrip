@@ -1,6 +1,6 @@
-//  js Document 
+//  js Document
 
-    // Created on : 14/10/2017. 
+    // Created on : 14/10/2017.
     // Theme Name : Faster .
     // Description: Faster - App Landing Page.
     // Version    : 1.1.
@@ -19,7 +19,7 @@
  }
 
 
-// WOW animation 
+// WOW animation
 function wowAnimation () {
   if($('.wow').length) {
     var wow = new WOW(
@@ -47,7 +47,7 @@ function removePlaceholder () {
                 $(this).on('focusout', function() {
                     $(this).attr('placeholder',$(this).data('holder'));
                 });
-                
+
         });
   }
 }
@@ -65,7 +65,7 @@ function scrollToTop () {
         $('.scroll-top').fadeOut();
       }
     });
-    
+
     //Click event to scroll to top
     $('.scroll-top').on('click', function() {
       $('html, body').animate({scrollTop : 0},1500);
@@ -74,12 +74,24 @@ function scrollToTop () {
   }
 }
 
+function scrollToContact () {
+  if ($('#to-contact-form').length) {
 
-// Theme-banner slider 
+    //Click event to scroll to div
+    $('#to-contact-form').on('click', function() {
+      $('html, body').animate({
+        scrollTop : $('.contact-us-section').offset().top
+      }, 1500);
+    });
+  }
+}
+
+
+// Theme-banner slider
 function BannerSlider () {
   var banner = $("#theme-main-banner");
   if (banner.length) {
-    banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
+    banner.camera({ //here I declared some settings, the height and the presence of the thumbnails
       height: '1000px',
       pagination: false,
       navigation: false,
@@ -110,7 +122,7 @@ function hoverTilt () {
 
 
 
-// Testimonial Slider 
+// Testimonial Slider
 function testimonialSlider () {
   var tSlider = $ (".testimonial-slider");
   if(tSlider.length) {
