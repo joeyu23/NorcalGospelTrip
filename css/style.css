@@ -310,6 +310,9 @@
   border-color: #fff;
   color: rgba(0,0,0,0.8);
 }
+.theme-main-header img {
+    width: 100px;
+}
 /***
 
 ====================================================================
@@ -317,7 +320,7 @@
 ====================================================================
 
  ***/
- #theme-main-banner {margin-bottom: 130px;position: relative;}
+ #theme-main-banner {margin-bottom: 50px;position: relative;}
 .camera_wrap {
   float:none;
 }
@@ -371,17 +374,17 @@
 #theme-main-banner .camera_caption .container h1 {
   color: #fff;
   text-transform: capitalize;
-  margin: 25px 0 40px 0;
+  margin: 25px 0 25px 0;
 }
 #theme-main-banner.banner-one .camera_caption .container h1 {color: #000;}
 #theme-main-banner .camera_caption .container p {
   font-size: 20px;
-  margin: 0 0 55px 0;
+  margin: 0 0 25px 0;
   color: rgba(255,255,255,0.85);
 }
 #theme-main-banner.banner-one .camera_caption .container p {color: rgba(0,0,0,0.6);}
 #theme-main-banner .camera_caption .container a {
-  width: 190px;
+  width: 250px;
   line-height: 56px;
   font-size: 18px;
   font-weight: 500;
@@ -447,7 +450,7 @@
 #theme-main-banner.banner-three .camera_caption .container .image-wrapper,
 #theme-main-banner.gradient-banner-one .camera_caption .container .image-wrapper {
   right: 0;
-  top:-175px;
+  top:-100px;
   width: 43%;
 }
 #theme-main-banner.intro-banner .camera_caption .container .image-wrapper {
@@ -483,8 +486,8 @@
 .what-we-do .theme-title-one {padding-bottom: 45px;}
 .what-we-do .single-block {
   text-align: center;
-  padding: 35px 5px 70px 5px;
-  margin-top: 60px;
+  padding: 0 5px 25px 0;
+  margin-top: 10px;
 }
 .what-we-do .single-block img {margin: 0 auto;}
 .what-we-do .single-block h6 {
@@ -495,6 +498,7 @@
 .what-we-do .single-block p {
   font-size: 17px;
   line-height: 30px;
+  text-align: justify;
 }
 .what-we-do .single-block a {
   width: 135px;
@@ -515,7 +519,7 @@
           transform:scale(0.9);
 }
 /*-------------------- Boost Your Phone -----------------*/
-.boost-your-phone {margin: 90px 0 125px 0;}
+.boost-your-phone {margin: 25px 0 25px 0;}
 .boost-your-phone .container {position: relative;}
 .boost-your-phone .boster-image-wrapper {
   position: absolute;
@@ -610,7 +614,7 @@
           transform:translateX(-50%;);
 }
 .boost-your-phone .theme-title-two {margin-bottom: 55px;}
-.boost-your-phone .text {padding: 150px 0 0 0;}
+.boost-your-phone .text {padding: 50px 0 0 0;}
 .boost-your-phone .text ul li {
   font-weight: 500;
   line-height: 35px;
@@ -911,6 +915,9 @@
   z-index: 9;
 }
 /*----------------------- Conatct Us ----------------------*/
+.contact-us-section {
+    margin-top: 50px;
+}
 .contact-us-section .contact-us-form {padding-right: 70px;}
 .contact-us-section .contact-us-form input[type="text"],
 .contact-us-section .contact-us-form input[type="email"],
