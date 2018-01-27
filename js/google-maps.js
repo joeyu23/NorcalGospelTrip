@@ -15,7 +15,7 @@ function initMap() {
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 11,
-    center: amd
+    center: walmart
   });
 
   var fbMarker = new google.maps.Marker({
