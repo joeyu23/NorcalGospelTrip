@@ -896,7 +896,7 @@
   max-width: 1920px;
   margin: 0 auto;
 }
-.app-screenshot h2 {text-align: center;margin-bottom: 170px;}
+.app-screenshot h2 {text-align: center;margin-bottom: 50px;}
 .app-screenshot .screenshot-container {position: relative;padding: 0 40px;}
 .app-screenshot .screenshot-container .slider-row {margin: 0 -20px;}
 .app-screenshot .screenshot-container .slider-row .item {
