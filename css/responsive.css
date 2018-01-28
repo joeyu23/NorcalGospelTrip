@@ -58,7 +58,7 @@
   #watch-video {right: 20px;}
   .pricing-plan-section .tab-content {margin-top:100px;}
   .pricing-plan-section {padding: 150px 0 0 0;}
-  .app-screenshot {padding-bottom: 170px;}
+  .app-screenshot {/* padding-bottom: 170px; */}
   .google-map-area .map-image-warpper .placeholder {left: 50%;}
   footer .subscribe-form .input-wrapper .theme-button {width: 200px;margin: 20px auto 0 auto;}
   footer .bottom-footer [class*="col-"] {text-align:  center;}

@@ -75,10 +75,10 @@ function scrollToTop () {
 }
 
 function scrollToContact () {
-  if ($('#to-contact-form').length) {
+  if ($('.to-contact-form').length) {
 
     //Click event to scroll to div
-    $('#to-contact-form').on('click', function() {
+    $('.to-contact-form').on('click', function() {
       $('html, body').animate({
         scrollTop : $('.contact-us-section').offset().top
       }, 1500);
@@ -641,6 +641,7 @@ jQuery(document).on('ready', function() {
 	(function ($) {
 	   removePlaceholder ();
      scrollToTop ();
+     scrollToContact ();
      wowAnimation ();
      hoverTilt ();
      BannerSlider ();
